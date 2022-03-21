@@ -1,0 +1,22 @@
+.login__form_pass-show-after-send {
+  display: none !important; }
+
+.login__form_pass-message {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 20px; }
+
+.login__form_pass-message .login__form_pass-hide-after-send {
+  display: none; }
+
+.login__form_pass-message .login__form_pass-show-after-send {
+  display: block !important; }
+
+.form-sign-in-group #form-recovery-password {
+  display: none; }
+
+.form-sign-in-group.sign-in_show-form-recovery #form-sign-in {
+  display: none; }
+
+.form-sign-in-group.sign-in_show-form-recovery #form-recovery-password {
+  display: block; }

@@ -1,0 +1,189 @@
+.demo-grid-row-layout {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-line-pack: start;
+  align-content: flex-start; }
+
+@media (max-width: 1024px) {
+  .demo-grid-row-layout {
+    margin-left: -10px;
+    margin-right: -10px; } }
+
+@media (max-width: 1300px) {
+  .demo-grid-row-layout {
+    margin-left: -15px;
+    margin-right: -15px; } }
+
+.demo-grid-row-layout .demo-grid-col-layout-1 {
+  width: 66.66667%;
+  background: #006699;
+  padding: 10px;
+  color: #fff; }
+
+@media (max-width: 1024px) {
+  .demo-grid-row-layout .demo-grid-col-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+@media (max-width: 1300px) {
+  .demo-grid-row-layout .demo-grid-col-layout-1 {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+.demo-grid-row-layout .demo-grid-col-layout-2 {
+  width: 33.33333%;
+  background: #008200;
+  padding: 10px;
+  color: #fff; }
+
+@media (max-width: 1024px) {
+  .demo-grid-row-layout .demo-grid-col-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+@media (max-width: 1300px) {
+  .demo-grid-row-layout .demo-grid-col-layout-2 {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+.demo-grid-row-layout-2 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-line-pack: start;
+  align-content: flex-start; }
+
+@media (max-width: 1024px) {
+  .demo-grid-row-layout-2 {
+    margin-left: -10px;
+    margin-right: -10px; } }
+
+@media (max-width: 1300px) {
+  .demo-grid-row-layout-2 {
+    margin-left: -15px;
+    margin-right: -15px; } }
+
+@media (max-width: 1024px) {
+  .demo-grid-row-layout-2 {
+    -ms-flex-direction: column;
+    flex-direction: column; } }
+
+.demo-grid-row-layout-2 .demo-grid-col-layout-1 {
+  width: 66.66667%;
+  background: #006699;
+  padding: 10px;
+  color: #fff; }
+
+@media (max-width: 1024px) {
+  .demo-grid-row-layout-2 .demo-grid-col-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+@media (max-width: 1300px) {
+  .demo-grid-row-layout-2 .demo-grid-col-layout-1 {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+@media (max-width: 1024px) {
+  .demo-grid-row-layout-2 .demo-grid-col-layout-1 {
+    width: 100%; } }
+
+@media (max-width: 1024px) and (max-width: 1024px) {
+  .demo-grid-row-layout-2 .demo-grid-col-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+@media (max-width: 1024px) and (max-width: 1300px) {
+  .demo-grid-row-layout-2 .demo-grid-col-layout-1 {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+.demo-grid-row-layout-2 .demo-grid-col-layout-2 {
+  width: 33.33333%;
+  background: #008200;
+  padding: 10px;
+  color: #fff; }
+
+@media (max-width: 1024px) {
+  .demo-grid-row-layout-2 .demo-grid-col-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+@media (max-width: 1300px) {
+  .demo-grid-row-layout-2 .demo-grid-col-layout-2 {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+@media (max-width: 1024px) {
+  .demo-grid-row-layout-2 .demo-grid-col-layout-2 {
+    width: 100%; } }
+
+@media (max-width: 1024px) and (max-width: 1024px) {
+  .demo-grid-row-layout-2 .demo-grid-col-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+@media (max-width: 1024px) and (max-width: 1300px) {
+  .demo-grid-row-layout-2 .demo-grid-col-layout-2 {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+.demo-grid-row-layout-3 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-line-pack: start;
+  align-content: flex-start; }
+
+@media (max-width: 1024px) {
+  .demo-grid-row-layout-3 {
+    margin-left: -10px;
+    margin-right: -10px; } }
+
+@media (max-width: 1300px) {
+  .demo-grid-row-layout-3 {
+    margin-left: -15px;
+    margin-right: -15px; } }
+
+.demo-grid-row-layout-3 .demo-grid-col-layout-1 {
+  width: 50%;
+  background: #006699;
+  padding: 10px;
+  color: #fff;
+  margin-left: 16.66667%; }
+
+@media (max-width: 1024px) {
+  .demo-grid-row-layout-3 .demo-grid-col-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+@media (max-width: 1300px) {
+  .demo-grid-row-layout-3 .demo-grid-col-layout-1 {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+.demo-grid-row-layout-3 .demo-grid-col-layout-2 {
+  width: 33.33333%;
+  background: #008200;
+  padding: 10px;
+  color: #fff; }
+
+@media (max-width: 1024px) {
+  .demo-grid-row-layout-3 .demo-grid-col-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+@media (max-width: 1300px) {
+  .demo-grid-row-layout-3 .demo-grid-col-layout-2 {
+    padding-left: 15px;
+    padding-right: 15px; } }
